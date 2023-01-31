@@ -82,7 +82,7 @@ export default function NavBarAndMenu(props: {
         <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)} onKeyDown={toggleDrawer(false)}>
             <List>
                 <ListItem key="nameLogo" disablePadding>
-                    <ListItemButton component={Link} to="/">
+                    <ListItemButton component={MuiLink} href="https://yangchnx.com">
                         <ListItemText
                             inset
                             primary={getLocaleText(
